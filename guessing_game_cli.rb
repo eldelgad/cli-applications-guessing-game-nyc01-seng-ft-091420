@@ -2,7 +2,7 @@
 
 def run_guessing_game
   
-  user_input = get.chomp
+  user_input = gets.chomp
   
   guess = rand(1...6)
   
