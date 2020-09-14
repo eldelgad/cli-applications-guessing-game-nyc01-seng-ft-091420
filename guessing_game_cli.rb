@@ -1,3 +1,4 @@
+require 'pry'
 # Code your solution here!
 
 def run_guessing_game
@@ -8,6 +9,7 @@ def run_guessing_game
   
   if user_input == guess
     puts "You guessed the correct number!"
+    binding.pry
   elsif user_input == "exit"
     puts "Goodbye!"
   else
